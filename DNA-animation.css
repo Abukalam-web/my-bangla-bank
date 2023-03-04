@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animation-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.animation-section-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dot{
+    width: 7px;
+    height: 7px;
+    margin: 0px 6px 0px 6px;
+    background-color: aqua;
+}
+.section-1dot{
+    width: 7px;
+    height: 7px;
+    margin: 0px 6px 0px 6px;
+    background-color: aqua;
+}
+@keyframes tuning{
+    0%,100%{
+        height: 7px;
+    }
+    50%{
+        height: 160px;
+    }
+}
+.head01{
+    color: darkorange;
+    text-align: center;
+    font-size: 40px;
+}
+.dot1{
+    background-color: rgb(212, 13, 176);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+}
+.dot2{
+    background-color: rgb(4, 115, 115);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+}
+.dot3{
+    background-color: rgb(210, 16, 16);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+}
+.dot4{
+    background-color: rgb(187, 0, 255);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+.dot5{
+    background-color: rgb(144, 0, 255);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+.dot6{
+    background-color: rgb(255, 0, 174);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.dot7{
+    background-color: rgb(89, 255, 0);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+.dot8{
+    background-color: rgb(1, 48, 48);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+.dot9{
+    background-color: rgb(255, 204, 0);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+.dot10{
+    background-color: rgb(255, 42, 0);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+.dot11{
+    background-color: rgb(4, 83, 83);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+
+.dot12{
+    background-color: rgb(212, 13, 176);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+.dot13{
+    background-color: rgb(4, 115, 115);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+    
+}
+.dot14{
+    background-color: rgb(210, 16, 16);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+.dot15{
+    background-color: rgb(144, 0, 255);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.dot16{
+    background-color: rgb(255, 0, 174);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+.dot17{
+    background-color: rgb(89, 255, 0);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+.dot18{
+    background-color: rgb(1, 48, 48);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+}
+.dot19{
+    background-color: rgb(255, 204, 0);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+}
+
+.dot20{
+    background-color: rgb(4, 83, 83);
+    animation-name: tuning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
