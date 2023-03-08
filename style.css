@@ -128,3 +128,139 @@ body{
                 4px -10px 30px #1abc9c;
     background-color: #2ecc71;
 }
+
+/* .first-page{
+    display: none;
+} */
+
+.dashbord-area{
+width: 80%;
+height: 100vh;
+/* border: 1px solid red; */
+margin: auto;
+
+}
+.three-boxes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+    
+}
+.box{
+    width: 250px;
+    height: 130px;
+    border-radius: 16px;
+    margin: 26px;
+    box-shadow: 2px 2px 5px lightgrey,
+    -2px -2px 5px lightgrey;
+}
+.deposit-box{
+    background: #f1c40f;
+}
+.withdraw-box{
+    background: #e74c3c;
+}
+.balance-box{
+    background: #2ecc71;
+}
+
+.box-heading {
+  color: white;
+  text-transform: capitalize;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.two-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.b1{
+    box-shadow: 2px 2px 5px lightgrey,
+    -2px -2px 5px lightgrey;
+    width: 400px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    
+}
+.get1{
+    margin-right: 50px;
+    background: white;
+}
+
+input{
+    width: 90%;
+    outline: none;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.input1,  .input2{
+    padding-left: 15px;
+}
+input::placeholder{
+    text-transform: capitalize;
+    color: grey;
+}
+h3{
+    color: #e74c3c;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+button{
+    color: white;
+    background: #34495e;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.back-btn{
+    text-align: center;
+    margin-top: 100px;
+}
+.back-btn a{
+        color: white;
+        background: #1abc9c;
+        padding: 7px 20px;
+        border-radius: 13px;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: capitalize;
+        transition: all 0.2s ease-in-out;
+
+
+}
+.back-btn a:hover{
+    background-color: #2ecc71;
+    box-shadow:  6px 6px 15px #2ecc71,
+                 6px -6px 15px #2ecc71,
+                -6px 6px 15px #2ecc71,
+                -6px -6px 15px #2ecc71;
+    
+}
+
+
+
+.dashbord-area{
+    display: none;
+}
