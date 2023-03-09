@@ -264,3 +264,21 @@ button{
 .dashbord-area{
     display: none;
 }
+
+.deposite-amount{
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    padding: 3px 12px;
+}
+
+.btn:hover{
+   
+    transform: scale(1.1);
+
+}
+.btn{
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
